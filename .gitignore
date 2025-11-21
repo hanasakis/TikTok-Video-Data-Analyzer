@@ -1,0 +1,159 @@
+# Python通用忽略规则
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.venv.bak/
+
+# 安装包和分发文件
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+__pycache__/
+*.egg-info/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE和编辑器文件
+# VS Code
+.vscode/
+*.swp
+*.swo
+*~
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.pydevproject
+.project
+.metadata
+tmp/
+*.tmp
+*.temp
+*.log
+*.pid
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# 日志文件
+*.log
+logs/
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 环境变量文件
+.env
+.venv
+.env.local
+.env.production
+.env.development
+
+# 缓存文件
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# 大文件和数据文件（根据项目需要调整）
+*.csv
+*.xlsx
+*.xls
+*.json
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+data/
+dataset/
+datasets/
+
+# 图片和媒体文件（如果不需要版本控制）
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp4
+*.avi
+*.mov
+
+# 文档文件
+*.pdf
+*.doc
+*.docx
+*.pptx
+
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# 配置文件（根据安全需要）
+config.ini
+settings.ini
+secrets.py
+
+# 其他
+*.orig
+*.rej
