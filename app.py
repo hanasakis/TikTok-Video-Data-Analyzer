@@ -47,7 +47,7 @@ def setup_sidebar():
 
     # 添加项目信息
     st.sidebar.markdown("""
-    **Prof:** Mano Mathew  
+    **Supervisor:** Prof.Mano Joseph MATHEW  
     **Student:** Jianyu Li  
     **Student ID:** 20252230  
     **Email:** jianyu.li@efrei.net  
@@ -71,7 +71,7 @@ def setup_sidebar():
     st.sidebar.subheader("🏫 Partner Institutions")
 
     # 检查并显示图片 - 使用替代方案
-    st.sidebar.markdown("**École d'Ingénieur Généraliste en Informatique et Technologies du Numérique:**")
+    st.sidebar.markdown("**EFREI Paris**")
     if os.path.exists("assets/eFrei.png"):
         display_image_in_sidebar("assets/eFrei.png", width=120)
     else:
@@ -261,7 +261,7 @@ def main():
     # Footer
     st.markdown("---")
     st.caption("TikTok Video Data Analyzer | Built with Streamlit")
-    st.caption("Project by Jianyu Li (20252230) | Supervised by Prof. Mano Mathew")
+    st.caption("Project by Jianyu Li (20252230) | Supervised by Prof. Mano Joseph MATHEW")
 
 
 if __name__ == "__main__":
