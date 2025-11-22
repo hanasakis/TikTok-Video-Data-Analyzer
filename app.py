@@ -53,7 +53,7 @@ def setup_sidebar():
     **Email:** jianyu.li@efrei.net  
     **Github:** [hanasakis](https://github.com/hanasakis)  
     **GitHub Repository:** [TikTok-Video-Data-Analyzer](https://github.com/hanasakis/TikTok-Video-Data-Analyzer)  
-    **Dataset:** [Dataset-From-Tiktok](https://www.kaggle.com/datasets/erikvdven/tiktok-dataset)
+    **Dataset:** [Dataset-From-Tiktok](https://www.kaggle.com/datasets/raminhuseyn/dataset-from-tiktok)
     """)
 
     st.sidebar.markdown("---")
@@ -71,7 +71,7 @@ def setup_sidebar():
     st.sidebar.subheader("🏫 Partner Institutions")
 
     # 检查并显示图片 - 使用替代方案
-    st.sidebar.markdown("**EFREI Paris**")
+    st.sidebar.markdown("**EFREI Paris:**")
     if os.path.exists("assets/eFrei.png"):
         display_image_in_sidebar("assets/eFrei.png", width=120)
     else:
