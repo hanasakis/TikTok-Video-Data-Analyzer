@@ -80,6 +80,8 @@ tiktok-video-analyzer/
 │   ├── phone.ico
 │   ├── rocket.ico
 │   └── search.ico
+│   ├── eFrei.png
+│   └── WUT.png
 └── data/                 # Processed and exported data files
     └── (auto-generated CSV files)
 ```
