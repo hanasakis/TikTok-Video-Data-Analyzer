@@ -47,7 +47,8 @@ def setup_sidebar():
 
     # 添加项目信息
     st.sidebar.markdown("""
-    **Supervisor:** Prof.Mano Joseph MATHEW  
+    **Supervisor:** Prof.Mano Joseph MATHEW
+    **mano.mathew@efrei.fr**  
     **Student:** Jianyu Li  
     **Student ID:** 20252230  
     **Email:** jianyu.li@efrei.net  
@@ -96,7 +97,21 @@ def setup_sidebar():
 def setup_main_filters(df):
     """在主界面设置过滤器"""
     st.header("🔍 Data Filters")
-
+    st.markdown("""
+    ### 🎛️ Customize Your Analysis Scope
+    
+    Use these filters to focus on specific subsets of your TikTok data. 
+    Filters help you:
+    - **Isolate specific segments** for targeted analysis
+    - **Compare different groups** to identify patterns
+    - **Remove outliers** for clearer insights
+    - **Test hypotheses** about what drives performance
+    
+    **Filtering Tips:**
+    - Start broad, then narrow down based on initial findings
+    - Compare filtered vs unfiltered results to understand impacts
+    - Save interesting filter combinations for future analysis
+    """)
     with st.expander("Filter Options", expanded=True):
         col1, col2, col3 = st.columns(3)
 
