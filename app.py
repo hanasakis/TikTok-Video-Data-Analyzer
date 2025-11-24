@@ -42,13 +42,17 @@ def display_image_in_sidebar(image_path, width=150):
 # Sidebar content
 # -----------------------------
 def setup_sidebar():
+    st.sidebar.markdown("**Course: Data Visualization 2025**")
+    st.sidebar.markdown("**Prof. Mano Mathew**")
+    st.sidebar.markdown("**mano.mathew@efrei.net**")
+    st.sidebar.markdown("[Check out this LinkedIn](https://www.linkedin.com/in/manomathew/)", unsafe_allow_html=True)
+
+    st.sidebar.markdown("---")
     """设置侧边栏内容"""
     st.sidebar.header("📋 Project Information")
 
     # 添加项目信息
     st.sidebar.markdown("""
-    **Supervisor:** Prof.Mano Joseph MATHEW
-    **mano.mathew@efrei.fr**  
     **Student:** Jianyu Li  
     **Student ID:** 20252230  
     **Email:** jianyu.li@efrei.net  
@@ -57,7 +61,6 @@ def setup_sidebar():
     **Dataset:** [Dataset-From-Tiktok](https://www.kaggle.com/datasets/raminhuseyn/dataset-from-tiktok)
     """)
 
-    st.sidebar.markdown("---")
 
     # 添加项目介绍
     st.sidebar.markdown("""
